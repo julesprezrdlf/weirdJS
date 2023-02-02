@@ -6,3 +6,11 @@ F
 
 FALSE, resultado = 0.30000000000000004
 
+
+
+function print(first, second, first){      console.log(first, second, first);
+}
+print(1, 2, 3);
+
+
+3 2 3
