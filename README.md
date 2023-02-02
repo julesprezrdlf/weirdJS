@@ -23,3 +23,16 @@ print(1, 2, 3); // 3 2 3
 El fragmento de código anterior tiene parámetros duplicados en el primer y tercer parámetro, el valor del primer parámetro se asigna al tercero que se pasa a la función, por lo tanto el tercer argumento anula el primer parámetro.
 
 <hr>
+
+```js
+[] == ![]; // -> true
++[] == +![]; // -> true
+```
+
+El comparador de igualdad convierte ambos miembros a número para compararlos, y ambos miembros pasan a ser 0 por diferentes motivos.
+
+```js
+[] == ![]; // -> 0 == 0 -> true
+```
+
+<hr>
