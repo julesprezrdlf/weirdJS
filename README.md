@@ -12,7 +12,8 @@ En JavaScript. Los números binarios de coma flotante 0.1 y 0.2 no son muy preci
 
 
 ```js
-function print(first, second, first){ console.log(first, second, first);
+function print(first, second, first){ 
+  console.log(first, second, first);
 }
 print(1, 2, 3); // 3 2 3 
 ```
