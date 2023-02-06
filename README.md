@@ -36,3 +36,16 @@ El comparador de igualdad convierte ambos miembros a número para compararlos, y
 ```
 
 <hr>
+
+
+```js
+var y = 1;
+if (function f() {}) {
+    y += typeof f;
+}
+console.log(y);
+```
+
+El if lo toma con un literal lo cual entra en la condición. El resultado va a depender del motor, para el caso de Chrome el resultado es la concatenación de 1undefined, para el caso de EDGE, 1object. 
+
+<hr>
